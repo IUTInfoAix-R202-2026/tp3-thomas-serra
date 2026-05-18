@@ -32,7 +32,6 @@ class PremiereVueFXMLTest {
 
   // --- Étape 1 : la fenêtre est affichée ---
 
-  @Disabled("Retire cette annotation pour activer le test")
   @Test
   @Order(1)
   void la_fenetre_de_la_vue_fxml_est_visible(FxRobot robot) {

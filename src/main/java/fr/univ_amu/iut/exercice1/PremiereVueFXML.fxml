@@ -32,7 +32,8 @@
   </padding>
 
   <top>
-    <Label text="Bienvenue dans le monde FXML !" style="bold : 20px;" BorderPane.alignment="CENTER" />
+    <Label text="Bienvenue dans le monde FXML !" style="fx-font-size : 20px;fx-font-weight: bold;"
+      BorderPane.alignment="CENTER" />
     <Label />
   </top>
 

@@ -34,7 +34,6 @@ class CompteurControllerTest {
 
   // --- Étape 1 : le label affiche 0 au démarrage ---
 
-  @Disabled("Retire cette annotation pour activer le test")
   @Test
   @Order(1)
   void le_compteur_affiche_zero_au_demarrage(FxRobot robot) {

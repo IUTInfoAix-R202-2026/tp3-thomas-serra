@@ -38,7 +38,7 @@
   </top>
 
   <center>
-    <Label text="Bienvenue dans le monde FXML ! C'est trop bien le dev ihm" style="bold : 20px;" />
+    <Label text="Bienvenue" style="bold : 20px;" />
     <Label text="ligne 2" wrapText="true" BorderPane.alignment="center" />
   </center>
   <bottom>

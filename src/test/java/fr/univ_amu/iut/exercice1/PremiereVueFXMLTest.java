@@ -40,7 +40,6 @@ class PremiereVueFXMLTest {
         .isTrue();
   }
 
-  @Disabled("Retire cette annotation pour activer le test")
   @Test
   @Order(2)
   void la_scene_du_stage_contient_la_racine_fxml(FxRobot robot) {
@@ -51,7 +50,6 @@ class PremiereVueFXMLTest {
 
   // --- Étape 2 : la racine provient bien du FXML ---
 
-  @Disabled("Retire cette annotation pour activer le test")
   @Test
   @Order(3)
   void la_racine_de_la_vue_fxml_est_un_borderpane(FxRobot robot) {
@@ -60,7 +58,6 @@ class PremiereVueFXMLTest {
         .isInstanceOf(BorderPane.class);
   }
 
-  @Disabled("Retire cette annotation pour activer le test")
   @Test
   @Order(4)
   void le_stage_porte_le_titre_attendu(FxRobot robot) {
@@ -70,7 +67,6 @@ class PremiereVueFXMLTest {
   }
 
   // --- Étape 3 : les composants du FXML sont bien présents ---
-
   @Disabled("Retire cette annotation pour activer le test")
   @Test
   @Order(5)
@@ -93,7 +89,6 @@ class PremiereVueFXMLTest {
         .isNotNull();
   }
 
-  @Disabled("Retire cette annotation pour activer le test")
   @Test
   @Order(6)
   void le_bouton_est_affiche_dans_la_vue(FxRobot robot) {

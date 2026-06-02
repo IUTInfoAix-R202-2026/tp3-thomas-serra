@@ -31,6 +31,7 @@ public class CoquilleAccueilController {
   private void onMesSites() {
     // TODO exercice 4 : afficher le titre "Mes sites de suivi" au centre,
     // puis tracer dans la barre de statut : "Rubrique active : Mes sites".
+
   }
 
   /** Action du menu « Importer une nuit ». */

@@ -56,7 +56,6 @@ class CoquilleAccueilControllerTest {
         .isEqualTo("Mes sites de suivi");
   }
 
-  @Disabled("Retire cette annotation pour activer le test")
   @Test
   @Order(2)
   void le_label_de_statut_est_present_dans_la_barre_de_statut(FxRobot robot) {

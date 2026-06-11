@@ -29,7 +29,7 @@
   <top>
     <MenuBar>
       <menus>
-        <Menu title="Mes sites de suivi" text="Fichier">
+        <Menu text="Fichier">
           <items>
             <MenuItem text="Quitter" onAction="#onQuitter" />
           </items>

@@ -2,6 +2,7 @@ package fr.univ_amu.iut.exercice4;
 
 import javafx.fxml.FXML;
 import javafx.scene.control.Label;
+import javafx.stage.Stage;
 
 /**
  * Contrôleur de la vue {@code CoquilleAccueilView.fxml}.
@@ -51,7 +52,7 @@ public class CoquilleAccueilController {
     // : Vue
     // tabulaire".
     labelTitre.setText("Vue tabulaire des passages");
-    labelStatut.setText("Rubrique active : Vue");
+    labelStatut.setText("Rubrique active : Vue tabulaire");
   }
 
   /** Action du menu « Paramètres ». */
@@ -66,8 +67,7 @@ public class CoquilleAccueilController {
   /** Action du menu « Fichier > Quitter ». Ferme la fenêtre courante via la scène du label. */
   @FXML
   private void onQuitter() {
-    // TODO exercice 4 : fermer la fenêtre courante.
-    // On récupère le Stage via la Scene du labelTitre, puis on appelle close().
-    onQuitter();
+    Stage stage = (Stage) labelTitre.getScene().getWindow();
+    stage.close();
   }
 }

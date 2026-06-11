@@ -78,6 +78,7 @@ public class SiteCarte extends HBox {
     // 3. Lui dire que le contrôleur doit être CET objet aussi : loader.setController(this).
     // 4. Appeler loader.load() (qui peut lever IOException, à propager via RuntimeException
     //    pour ne pas surcharger la signature du constructeur).
+
   }
 
   /**

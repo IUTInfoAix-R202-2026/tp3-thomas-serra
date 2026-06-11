@@ -7,7 +7,6 @@ import javafx.scene.control.Label;
 import javafx.scene.control.PasswordField;
 import javafx.scene.control.TextField;
 import javafx.stage.Stage;
-import org.junit.jupiter.api.Disabled;
 import org.junit.jupiter.api.MethodOrderer;
 import org.junit.jupiter.api.Order;
 import org.junit.jupiter.api.Test;
@@ -143,7 +142,6 @@ class FormulaireConnexionControllerTest {
         .isTrue();
   }
 
-  @Disabled("Retire cette annotation pour activer le test")
   @Test
   @Order(9)
   void le_bouton_ok_reste_desactive_sans_chiffre_dans_le_mot_de_passe(FxRobot robot) {
